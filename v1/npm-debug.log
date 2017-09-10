@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'v1' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of C:\Users\s8jmc\Downloads\google-cloud-sdk-162.0.1-windows-x86-bundled-python\google-cloud-sdk\platform\ext-runtime\nodejs\data\src\facebook-sdk\build\package.json
+5 warn package.json facebook-sdk@0.3.2 No README data
+6 warn package.json facebook-sdk@0.3.2 No license field.
+7 verbose readDependencies loading dependencies from C:\Users\s8jmc\Downloads\google-cloud-sdk-162.0.1-windows-x86-bundled-python\google-cloud-sdk\platform\ext-runtime\nodejs\data\src\facebook-sdk\build\package.json
+8 silly cache add args [ 'v1', null ]
+9 verbose cache add spec v1
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'v1',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'v1',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 silly addNamed v1@*
+12 verbose addNamed "*" is a valid semver range for v1
+13 silly addNameRange { name: 'v1', range: '*', hasData: false }
+14 silly mapToRegistry name v1
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry http://registry.npmjs.org/
+17 silly mapToRegistry uri http://registry.npmjs.org/v1
+18 verbose addNameRange registry:http://registry.npmjs.org/v1 not in flight; fetching
+19 verbose request uri http://registry.npmjs.org/v1
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 8:39:02 PM
+22 verbose request id cf8da83289436f31
+23 http request GET http://registry.npmjs.org/v1
+24 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 192.30.252.153:1080
+25 info attempt registry request try #2 at 8:39:35 PM
+26 http request GET http://registry.npmjs.org/v1
+27 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 192.30.252.153:1080
+28 info attempt registry request try #3 at 8:40:56 PM
+29 http request GET http://registry.npmjs.org/v1
+30 verbose stack Error: connect ETIMEDOUT 192.30.252.153:1080
+30 verbose stack     at Object.exports._errnoException (util.js:874:11)
+30 verbose stack     at exports._exceptionWithHostPort (util.js:897:20)
+30 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+31 verbose cwd C:\Users\s8jmc\Downloads\google-cloud-sdk-162.0.1-windows-x86-bundled-python\google-cloud-sdk\platform\ext-runtime\nodejs\data\src\facebook-sdk\build\v1
+32 error Windows_NT 10.0.14393
+33 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "v1"
+34 error node v4.2.1
+35 error npm  v2.14.7
+36 error code ETIMEDOUT
+37 error errno ETIMEDOUT
+38 error syscall connect
+39 error network connect ETIMEDOUT 192.30.252.153:1080
+39 error network This is most likely not a problem with npm itself
+39 error network and is related to network connectivity.
+39 error network In most cases you are behind a proxy or have bad network settings.
+39 error network
+39 error network If you are behind a proxy, please make sure that the
+39 error network 'proxy' config is set properly.  See: 'npm help config'
+40 verbose exit [ 1, true ]
